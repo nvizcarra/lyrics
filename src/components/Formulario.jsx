@@ -6,7 +6,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
         // artista y cancion tienen que coincider con los name de los inputs
         artista: '',
         cancion: ''
-    })
+    });
 
     const [ error, guardarError ] = useState(false);
 
